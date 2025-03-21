@@ -8,8 +8,8 @@ app.use(express.json()) //to accept data as json...
 
 
 //import role routes
-const roleRoutes = require("./src/routes/RoleRoutes")
-app.use(roleRoutes)
+// const roleRoutes = require("./src/routes/RoleRoutes")
+// app.use(roleRoutes)
 
 //userRoutes
 const userRoutes = require("./src/routes/UserRoutes")
@@ -17,8 +17,8 @@ app.use(userRoutes)
 
 
 //user1Routes
-const user1Routes = require("./src/routes/User1Routes")
-app.use(user1Routes)
+// const user1Routes = require("./src/routes/User1Routes")
+// app.use(user1Routes)
 
 
 
